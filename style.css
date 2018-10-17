@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+h2, h3{
+    margin: 0px;
+}
+body{
+    background-color: rgb(30, 146, 241);
+    margin: 20px 0;
+    font-family: sans-serif;
+}
+article{
+    padding: 30px 0;
+    border-bottom: 1px solid rgba(209, 203, 203, 0.877);
+}
+article:last-child{
+    border-bottom: 0px;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+header{
+    padding: 50px;
+}
+header > #logo{
+    font-size: 2em;
+}
+main{
+    padding: 50px;
+    overflow: hidden;
+
+}
+section{
+    width: 70%;
+    float: left;
+}
+aside{
+    background-color: yellow;
+    width: 30%;
+    float: right;
+    padding: 10px;
+}
+aside h3{
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid rgb(189, 177, 177);
+    text-align: center;
+}
